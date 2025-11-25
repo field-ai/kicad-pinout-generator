@@ -9,14 +9,14 @@ import re
 from . import pinout_generator_result
 
 SELECTOR = {
-    'list':0,
+    'wireviz':0,
     'csv':1,
     'html':2,
     'md':3,
     'c_define':4,
     'c_enum':5,
     'python_dict':6,
-    'wireviz':7,
+    'list':7,
     'fpga_xdc':8,
     'fpga_pdc':9
 }
